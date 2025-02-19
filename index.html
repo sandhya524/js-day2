@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <!-- inlinle js -->
+    <button onclick="alert('inline js')">Inline js click here</button> 
+    
+    <!-- internal js -->
+    <script>
+        
+        alert('this is internal js')//alert
+        console.log("internal js")
+
+        var a=10
+        console.log(a)
+        let b=20
+        console.log(b)
+        const c=30
+        console.log(c)
+        
+        var str="hello"
+        console.log(str)
+        var num=10.5
+        console.log(num)
+        var bol=true
+        console.log(bol)
+
+        console.log(d)
+        var d=40//undefined
+
+        a=null
+        console.log(a+13)// null
+
+        var arr=[2,3,4,5,6]//array
+        console.log(arr)
+
+        let obj={
+            name:"sandhya",
+            qualification:"btech",
+            branch:"ece",
+        }
+        console.log(obj)//object
+
+        function example(js){
+            console.log(js + "10k coders")
+        }
+        example("hi ")//function
+
+        //Use the typeof operator to log the type of each variable to the console
+        
+
+        var text="hello"
+        console.log(typeof text)
+
+        var num=10.5
+        console.log(typeof num)
+
+        var bol=true
+        console.log(typeof bol)
+
+        var roll=[2,4,5]
+        console.log(typeof roll)
+
+        var obj1={
+            name:"10k coders"
+        }
+        console.log(typeof obj1)
+
+        console.log(typeof example)
+
+
+        
+
+    </script>
+
+    <!-- external js -->
+    <script src="demo.js">external-js</script>
+</body>
+</html>
